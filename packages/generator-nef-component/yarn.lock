@@ -2,6 +2,41 @@
 # yarn lockfile v1
 
 
+"@alfheim/generator-nef-index@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@alfheim/generator-nef-index/-/generator-nef-index-0.2.1.tgz#a9c2878f52e2a7c71b3c1c7b4f6563a8b4df8ddb"
+  integrity sha512-pGwiJMI8IHnToybyAQTYF/y/YdPEOStA+3PZd2obuSvXHVkkwQOizuLtoY/wL2YuDSE1Hti8gC0szoTmI4vPQw==
+  dependencies:
+    yeoman-generator "^4.0.1"
+
+"@alfheim/generator-nef-readme@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@alfheim/generator-nef-readme/-/generator-nef-readme-0.2.1.tgz#5a5eaa92355d95da0a564a53a5a8d1ef0fc4b680"
+  integrity sha512-UKkivw7R4j3gWZhS2xMrdN5LuDDs5N2vbwPUQWIsO1kVnqmf5ZHRMWDpl53TUHROVglDFBovAfmf5DwVPycqnQ==
+  dependencies:
+    yeoman-generator "^4.0.1"
+
+"@alfheim/generator-nef-stories@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@alfheim/generator-nef-stories/-/generator-nef-stories-0.4.1.tgz#1b7fecdd989fe7c28a8c16a7f3db91a246de4647"
+  integrity sha512-Hwbcq2mc3YcYHdoeh++DtKB0yVluKLmZorMfwsokfwCLdSJnbP58QUZGtazDDSmxC+ldb1CNhtzkqz/24Gog/A==
+  dependencies:
+    yeoman-generator "^4.0.1"
+
+"@alfheim/generator-nef-styles@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@alfheim/generator-nef-styles/-/generator-nef-styles-0.2.1.tgz#cfaaf1d9941e93cc0492c0eb47613fac99858550"
+  integrity sha512-epjkIKFSuXrEBcMNxVrq0jgN3nBstKRm4hJDw72XYoxVMjzPUzbi/w9eKZnvaHvHngLP5edlJZlNnVtp0ZgziQ==
+  dependencies:
+    yeoman-generator "^4.0.1"
+
+"@alfheim/generator-nef-tests@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@alfheim/generator-nef-tests/-/generator-nef-tests-0.2.1.tgz#cadffb83db505a631e222e5879c4c55ac53730e6"
+  integrity sha512-x7M66Td4e5TVL7yRvVM5amuzOPkh6ixcpZk+Qb9ZSs+oxy7clz87cYq71wx/hoT8GMs0Grr2cfc6H9w5dHBPSA==
+  dependencies:
+    yeoman-generator "^4.0.1"
+
 "@babel/code-frame@^7.0.0":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.5.5.tgz#bc0782f6d69f7b7d49531219699b988f669a8f9d"
@@ -442,6 +477,11 @@ diff@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
   integrity sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==
+
+diff@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.1.tgz#0c667cb467ebbb5cea7f14f135cc2dba7780a8ff"
+  integrity sha512-s2+XdvhPCOF01LRQBC8hf4vhbVmI2CGS5aZnxLJlT5FtdhPCDFq80q++zK2KlrVorVDdL5BOGZ/VfLrVtYNF+Q==
 
 dir-glob@2.0.0:
   version "2.0.0"
@@ -2003,6 +2043,37 @@ yeoman-generator@^4.0.1:
     dateformat "^3.0.3"
     debug "^4.1.1"
     detect-conflict "^1.0.0"
+    error "^7.0.2"
+    find-up "^3.0.0"
+    github-username "^3.0.0"
+    istextorbinary "^2.5.1"
+    lodash "^4.17.11"
+    make-dir "^3.0.0"
+    mem-fs-editor "^6.0.0"
+    minimist "^1.2.0"
+    pretty-bytes "^5.2.0"
+    read-chunk "^3.2.0"
+    read-pkg-up "^5.0.0"
+    rimraf "^2.6.3"
+    run-async "^2.0.0"
+    shelljs "^0.8.3"
+    text-table "^0.2.0"
+    through2 "^3.0.1"
+    yeoman-environment "^2.3.4"
+
+yeoman-generator@^4.2.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/yeoman-generator/-/yeoman-generator-4.3.0.tgz#552b8eb19fc7160a43583fe84b56de3a8fda39d8"
+  integrity sha512-iFNNYbDBFWGNg36D2/vG5x5ngkjAMGyqUH8fI9bDR3Oeo+Zr8yIFy7J9NuJEEoTiaHJ9b2m9DcWt9prl9ZDnkw==
+  dependencies:
+    async "^2.6.2"
+    chalk "^2.4.2"
+    cli-table "^0.3.1"
+    cross-spawn "^6.0.5"
+    dargs "^6.1.0"
+    dateformat "^3.0.3"
+    debug "^4.1.1"
+    diff "^4.0.1"
     error "^7.0.2"
     find-up "^3.0.0"
     github-username "^3.0.0"
